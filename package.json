@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "pm2 start . --attach --name media-dlt",
+    "stop": "pm2 stop media-dlt"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "dotenv": "^16.4.5",
     "mongoose": "^8.5.3",
     "node-cron": "^3.0.3",
-    "node-telegram-bot-api": "^0.66.0"
+    "node-telegram-bot-api": "^0.66.0",
+    "pm2": "^5.4.2"
   }
 }
