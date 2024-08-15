@@ -1,0 +1,17 @@
+{
+  "name": "media-dlt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.5.3",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
